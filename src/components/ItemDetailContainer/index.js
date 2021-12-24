@@ -32,7 +32,7 @@ const ItemDetailContainer = () => {
   const result = filteredData(product);
   console.log(result);
 
-  return loading ? <span>LOADING</span> : <ItemDetail product={result} />;
+  return loading ? <span>LOADING...</span> : <ItemDetail product={result} />;
 };
 
 export default ItemDetailContainer;
